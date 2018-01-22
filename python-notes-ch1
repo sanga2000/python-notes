@@ -1,0 +1,6 @@
+Python beginner notes.
+
+Future import.
+from __future__ import << operation >> For example to import division from the future version usefrom __future__ import division.
+
+For the power use 2**3 ==> means 2 power 3
