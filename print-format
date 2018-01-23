@@ -1,0 +1,18 @@
+a='Hello Sangamesh'
+b='How r u'
+
+%s is a place holder for String
+print('This is my String %s' %a) ==> This is my String Hello Sangamesh
+
+Float
+precision is given by  allocated text for wholenumber.totalNumberOfDecimals
+
+num = 123.325
+print('This is float %1.2f' %num) ==> This is float 123.33
+print('This is float %1.15f' %num) ==>This is float 123.325000000000003
+print('This is float %31.3f' %num) ==> This is float                         123.325   #Added space in the front for 31
+
+print('First :%s Second :%s' %(a,b)) ==> First :Hello Sangamesh Second :How r u
+print('First :{x} Second :{y}'.format(x=a,y=b)) ==> First :Hello Sangamesh Second :How r u
+print('First :{x} Second :{x}'.format(x=a)) ==>First :Hello Sangamesh Second :Hello Sangamesh
+
