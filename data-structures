@@ -1,0 +1,35 @@
+List:
+
+myList=[1,2,'sanga'] #list can hold multiple data types.
+len(myList) ==> 3
+myList[1] ==>2
+myList[1:] ==> [2, 'sanga']
+myList[::2] ==> [1, 'sanga']
+myList[::-2] => ['sanga', 1]
+myList + ['Hello'] ==> [1, 2, 'sanga', 'Hello']
+myList.append(['Hello']) will permanantly add the value to the list.
+myList*2 ==> [1, 2, 'sanga', 1, 2, 'sanga']
+
+Dictionaries:
+ myDict = {'key1': 'val1', 'key2':'val2'}
+
+myDict['key1'] ==>'val1'  
+# '+' operand in unsupported to add a new value to the dictionaries. Use update function for putting the values in the map or use the below approach.
+myDict['key4'] = 'val4' ==> {'key1': 'val1', 'key2': 'val2', 'key3': 3, 4: 7, 'key4': 'val4'}
+
+myDict.update( {'key3':3}) ==> {'key1': 'val1', 'key2': 'val2', 'key3': 3}
+
+myDict.update( {4:4}) ==> {'key1': 'val1', 'key2': 'val2', 'key3': 3, 4: 4}
+Even the keys can be of different data types (int and string match).
+
+Changing a set  Dictionary value
+
+myDict
+myDict[4] = myDict[4] +3
+myDict ==>  {'key1': 'val1', 'key2': 'val2', 'key3': 3, 4: 7}
+
+The Nature of changing the value using operator overloading gives a much more flexibility of handling the dictionaries 
+we can assign a value like the below case
+
+myDict[4] = myDict[4] +3 can be written as 
+myDict[4] += 3.

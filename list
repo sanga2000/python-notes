@@ -1,5 +1,0 @@
-List
-myList=[1,2,'sanga'] #list can hold multiple data types.
-len(myList) ==> 3
-myList[1] ==>2
-myList[1:] ==> [2, 'sanga']
