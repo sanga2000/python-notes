@@ -1,0 +1,39 @@
+Python beginner notes.
+
+Future import.
+from __future__ import << operation >> For example to import division from the future version usefrom __future__ import division.
+
+For the power use 2**3 ==> means 2 power 3
+
+Length
+a = 'Get me the length'
+len('Get me the length') ==> 17
+
+Indexing - Get me the the char at index
+
+a[0] ==> G
+a[1] ==> e
+
+Negative representation of the String. String is like a loop and negative indexing is
+possible and will start to pull the elements from the reverse.
+a[-1] ==>h (the element of the string). 
+however it a[len(a)] or a[-len(a)-1] would result in a array out of index. 
+
+Slicing (pre) a[index:] - Get me all string from the specified index. (similar to substring)
+a[1:] ==> et me the length
+a[5:] ==> e the length
+a[-2:] ==> h
+a[-17:] ==> Get me the length
+Slicing (post) a[:index] - Get me all string till the specified index. (similar to substring)
+a[:1] ==> G
+a[:5] ==> Get m
+a[:-1] ==> Get me the lengt
+
+Slicing with the step (a[::1])
+Having 2 colons in the syntax will let us skip the letter both forward and reverse (using a -ve symbol)
+
+a[::1] ==> Get me the length
+a[::3] ==> 'G  eet' (get me every 3rd element of the string including first )
+a[::-1] ==> 'htgnel eht em teG'
+a[::-3] ==> 'hn tme'
+
