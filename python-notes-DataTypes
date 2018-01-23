@@ -37,3 +37,13 @@ a[::3] ==> 'G  eet' (get me every 3rd element of the string including first )
 a[::-1] ==> 'htgnel eht em teG'
 a[::-3] ==> 'hn tme'
 
+
+String properties:
+  a[0] = 'L' // Errors out as the String is immutable.
+  
+  + ==> concatenates 
+  * ==> Multiplies the String like a for loop.
+  a*5 ==>'Get me the lengthGet me the lengthGet me the lengthGet me the lengthGet me the length'
+  a.upper() ==> to convert the string to uppercase.
+  
+  
