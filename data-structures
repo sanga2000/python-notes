@@ -44,3 +44,47 @@ myDict.values() ==> dict_values(['val1', 'val2', 3, 7, 'val4'])
 
 #items() will result in a tuples.
 myDict.items() ==> dict_items([('key1', 'val1'), ('key2', 'val2'), ('key3', 3), (4, 7), ('key4', 'val4')])
+
+
+Tuples
+-------
+
+ # Tuples are immutable datastructures.
+myTup = (1,3,5,6,6)
+
+myTup ==> (1, 3, 5, 6, 6)
+myTup[0] ==> 1
+myTup[-1] ==> 6
+len(myTup) ==> 5
+myTup.count(6) ==> 2
+
+Files
+------
+file.readline() --> keeps its value in memory so use file.read() if dealing with a larger file.
+f = open('test.txt')
+f.readlines()
+
+['First line\n', 'second line\n', 'thrid line']
+
+for line in open('test.txt'):
+ print (line) ==>
+First line
+second line
+thrid line
+
+for line in f:
+    print(line) ==>
+First line
+second line
+thrid line
+
+
+Set
+-----
+ Need to initialize like below
+ mySet = set()
+ mySet.add(1) #adds 1 to the set  
+# cannot do mySet.add(1,2,3) accepts only one argument but that argument can be list if it needs more than one value
+set([1,2,3]) is possible.
+listSet = set([1,2,4])
+listSet ==> {1, 2, 4}
